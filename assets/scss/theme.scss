@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "G Centra";
+  font-weight: 400;
+  src: url("~assets/fonts/GCentra-Book.woff2") format("woff2"),
+  url("~assets/fonts/GCentra-Book.woff") format("woff");
+}
+@font-face {
+  font-family: "G Centra";
+  font-weight: 500;
+  src: url("~assets/fonts/GCentra-Medium.woff2") format("woff2"),
+  url("~assets/fonts/GCentra-Medium.woff") format("woff");
+}
+
+
+html {
+  font-family: 'G Centra', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+  Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 15px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+.bg-main {
+  background-color: #F7F9FC ;
+}
+
+.custom-input {
+  height: 50px;
+  border: 1px solid #DFDFE2;
+}
+
+.brand-card {
+  height: 72px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #DADCE6;
+  border-radius: 4px;
+  cursor: pointer;
+  &.active {
+    border-color: #2775F9;
+  }
+}
+
+
+.title {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.block-title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+
