@@ -5,37 +5,32 @@
         Company Address
       </div>
 
-      <b-row>
+      <b-row no-gutters>
 
-        <b-col cols="9" class="mb-2">
+        <b-col class=" mr-2">
           <b-input
             :value="street"
             @change="$emit('update:street', $event)"
-            class="custom-input"
             placeholder="Street name"/>
         </b-col>
-
         <b-col cols="3" class="mb-2">
           <b-input
             :value="number"
             @change="$emit('update:number', $event)"
-            class="custom-input"
             placeholder="Number"/>
         </b-col>
-
+        <div class="w-100"></div>
         <b-col cols="3">
           <b-input
             :value="zip"
             @change="$emit('update:zip', $event)"
-            class="custom-input"
             placeholder="ZIP Code"/>
         </b-col>
 
-        <b-col cols="9">
+        <b-col class="ml-2">
           <b-input
             :value="city"
             @change="$emit('update:city', $event)"
-            class="custom-input"
             placeholder="City name"/>
         </b-col>
 

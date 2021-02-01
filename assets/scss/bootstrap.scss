@@ -15,5 +15,9 @@ $container-max-widths: (
 );
 $modal-backdrop-bg: #130A33;
 $modal-backdrop-opacity: .9;
+$input-border-radius: 4px;
+$input-height: 50px;
+$input-border-color: #DFDFE2;
+
 @import '~bootstrap/scss/bootstrap.scss';
 @import '~bootstrap-vue/src/index.scss';

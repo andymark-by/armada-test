@@ -1,5 +1,5 @@
 <template>
-  <b-card>
+  <b-card class="preview">
     <b-col class="py-4">
 
       <b-row>

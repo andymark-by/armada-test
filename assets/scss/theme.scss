@@ -36,11 +36,6 @@ html {
   background-color: #F7F9FC ;
 }
 
-.custom-input {
-  height: 50px;
-  border: 1px solid #DFDFE2;
-}
-
 .brand-card {
   height: 72px;
   display: flex;
@@ -53,6 +48,11 @@ html {
   cursor: pointer;
   &.active {
     border-color: #2775F9;
+  }
+}
+.preview {
+  .brand-card {
+    cursor: default;
   }
 }
 
