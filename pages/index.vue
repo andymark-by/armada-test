@@ -84,7 +84,7 @@ export default {
     Logo,
     Brands,
     Address,
-    'ckeditor-nuxt': () => import('@blowstack/ckeditor-nuxt'),
+    'ckeditor-nuxt': () => { if (process.client) { return import('@blowstack/ckeditor-nuxt') } },
   },
   data: () => ({
     introduction: 'This is a small introduction of your company highlighting your strenghts and what makes you different.',
